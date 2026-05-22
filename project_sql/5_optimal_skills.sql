@@ -34,7 +34,7 @@ WITH skills_demand AS (
     GROUP BY
         skills_job_dim.skill_id
 )
--- Return high demand and high salaries for 10 skills 
+-- Return high demand and high salaries 
 SELECT
     skills_demand.skill_id,
     skills_demand.skills,
